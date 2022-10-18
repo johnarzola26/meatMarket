@@ -1,0 +1,126 @@
+body {
+  width: 1000px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1em;
+  background-color: rgb(124, 116, 102);
+}
+
+#wrapper {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  background-color: bisque;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 1.5em;
+  letter-spacing: 0.4em;
+}
+
+h2 {
+  letter-spacing: 0.4em;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.banner2 {
+  float: right;
+  margin-left: 10px;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: stretch;
+}
+
+footer {
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.footer {
+  justify-self: self-end;
+  align-self: flex-end;
+  line-height: 5px;
+}
+
+div.contact {
+  justify-self: self-start;
+}
+
+nav {
+  padding-top: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  line-height: 1.6em;
+  margin-right: 120px;
+  margin-left: 120px;
+  color: brown;
+}
+
+a:active {
+  text-decoration: none;
+  color: aqua;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.navleft {
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.wagyu {
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+
+.summerSaus {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.jerky {
+  float: right;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.saus {
+  float: left;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.toma {
+  float: right;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.history {
+  float: right;
+}
+
+.contact {
+  line-height: 5px;
+}
